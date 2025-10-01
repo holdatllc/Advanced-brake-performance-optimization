@@ -1,0 +1,19 @@
+# MHM Brake Performance Optimization - Requirements
+# Core dependencies for brake performance optimization
+
+# Core scientific computing
+numpy>=1.21.0
+matplotlib>=3.5.0
+scipy>=1.7.0
+pandas>=1.3.0
+
+# Data handling and utilities
+dataclasses>=0.6;python_version<"3.7"
+typing-extensions>=4.0.0;python_version<"3.8"
+
+# Optional dependencies (install with pip install -r requirements-optional.txt)
+# matlab.engine  # Requires MATLAB installation
+# numba>=0.56.0  # For performance optimization
+# seaborn>=0.11.0  # For advanced visualization
+# plotly>=5.0.0  # For interactive plots
+# python-can>=4.0.0  # For real-time CAN bus integration
